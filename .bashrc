@@ -18,4 +18,7 @@ export PATH=$PATH:$HOME/tools/node-v9.5.0-linux-x64/bin/
 #    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 #}
 
+alias gfmt='go fmt ${PWD##*/}/...'
+alias pkown='chown -R pk .'
+
 export PS1="[\u@\h \W]\[\033[32m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/')\[\033[00m\] $ "
