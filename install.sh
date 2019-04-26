@@ -2,6 +2,7 @@
 
 # System
 dnf install -y fuse-exfat
+dnf install -y lm_sensors #sensors-detect && sensors
 
 # Basic software
 dnf install -y mc
@@ -24,7 +25,9 @@ dnf install -y go
 pip install numpy
 pip install scipy
 
-dnf install -y redhat-rpm-config pyhon-devel
+dnf install -y redhat-rpm-config python-devel
 pip install scikits.audiolab
 
 pip install matplotlib
+
+#Golang
