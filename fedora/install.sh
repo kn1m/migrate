@@ -10,6 +10,8 @@ dnf install -y curl
 dnf install -y mc
 dnf install -y kate
 dnf install -y ImageMagick
+dnf install -y tmux
+dnf install -y vim
 
 # Libraries & useful tools
 dnf install -y leptonica
@@ -39,8 +41,7 @@ pip install matplotlib
 # Ansible
 dnf install -y ansible
 
-#
+# Docker
 
+# Kubernetes
 dnf install -y kubectl
-
-# IDEs
